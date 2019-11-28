@@ -1,0 +1,29 @@
+.detail .container .detail_content > h4:first-of-type{
+    display: inline-block;
+    background: #ea5404;
+    color: #fff;
+    padding: 6px 20px;
+}
+.detail .container .detail_content .case .left{
+    width:calc(50% - 10px);
+    margin-right: 10px;
+}
+.detail .container .detail_content .case .right{
+    width:calc(50% - 10px);
+    margin-left: 10px;
+}
+.detail .container .detail_content .case .left p,
+.detail .container .detail_content .case .right p{
+    color: #0d0a0c;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.detail .container .hdzn h4:last-of-type{
+    font-size: 16px;
+}
+@media (max-width:768px){
+    .detail .container .hdzn h4:last-of-type{
+        margin-top: 20px;
+    }
+}

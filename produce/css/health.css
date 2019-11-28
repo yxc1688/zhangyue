@@ -1,0 +1,73 @@
+.detail .container .yp .found .content_left,
+.detail .container .yp .found .content_right{
+    width: calc(50% - 10px)
+}
+.detail .container .yp .found .content_left{
+    margin-right: 10px;
+}
+.detail .container .yp .found .content_left h4{
+    font-size: 18px;
+    line-height: 34px;
+    color: #595656;
+    margin: 28px 0;
+}
+.detail .container .yp .found .content_right{
+    margin-left: 10px;
+}
+.detail .container .yp .found .content_right p span{
+    color: #E56600;
+}
+.detail .container .yp .found .content_right p span small{
+    font-size: 10px;
+}
+.detail .container .yp> hr{
+    border: none !important;
+    margin: 0 !important;
+    padding: 40px 0;
+}
+.detail .container .yp> hr:after{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    content: "";
+    display: block;
+    border-bottom: 1px dashed #ddd;
+}
+.detail .container .detail_content .jmjt .left{
+    width: 50%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.detail .container .detail_content .jmjt .left p span{
+    color: #E56600;
+}
+.detail .container .detail_content .jmjt .left p span small{
+    font-size: 10px;
+}
+.detail .container .detail_content .jmjt .right{
+    width: 50%;
+    padding-left: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.detail .container .yl>h4:first-of-type{
+    display: inline-block;
+    background: #ea5404;
+    color: #fff;
+    padding: 6px 20px;
+}
+.detail .container .yl .intr .intr_left,
+.detail .container .yl .intr .intr_right{
+    width: calc(50% - 10px);
+}
+.detail .container .yl .intr .intr_left{
+    margin-right: 10px;
+}
+.detail .container .yl .intr .intr_right{
+    margin-left: 10px;
+}
+.detail .container .yl .intr .intr_right img{
+    margin-bottom: 28px;
+}

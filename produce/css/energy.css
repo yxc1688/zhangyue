@@ -1,0 +1,18 @@
+.detail .container .detail_content > h4:first-of-type{
+    display: inline-block;
+    background: #ea5404;
+    color: #fff;
+    padding: 6px 20px;
+}
+.detail .container .detail_content .left{
+    width:calc(60% - 10px);
+    margin-right: 10px;
+}
+.detail .container .detail_content .left img{
+    margin-bottom: 28px;
+}
+.detail .container .detail_content .right{
+    width:calc(40% - 10px);
+    margin-left: 10px;
+}
+

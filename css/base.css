@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul,li,p,ol,h1,h2,h3,h4,h5,h6,
+form,label,dl,dt,dd,header,footer,nav,section,aside,dialog,details,
+figure,figcaption,hgroup,article,main,summary{
+	display:block;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/*清除浮动*/
+.clearfix:after{
+	display:block;
+	height:0;
+	content:'';
+	visibility:hidden;
+	clear:both;
+}
+/*左右浮动*/
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+/*一行文字溢出隐藏*/
+.ellipsis{
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*文本居中/左/右*/
+.tac{
+	text-align:center;
+}
+.tal{
+	text-align:left;
+}
+.tar{
+	text-align:right;
+}
+/*加粗  变轻*/
+.fw{
+	font-weight: bold;
+}
+.fn{
+	font-weight: normal;
+}
+/*相对定位*/
+.pr{
+	position:relative;
+}
+.pa{
+	position:absolute;
+}
+/*元素水平居中*/
+.position-x{
+	position:absolute;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+/*元素垂直居中*/
+.position-y{
+	position:absolute;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+.position-x-y{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+/*元素隐藏*/
+.hide{
+	display:none;
+}
+/*元素显示*/
+.show{
+	display:block;
+}
+/*块元素居中*/
+.center{
+	width: 1080px;
+	margin:0 auto;
+}
+/*border-radius*/
+.br{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+/*font*/
+@font-face {
+  font-family: 'AR';
+  src: url(../fonts/AKZ.ttf);
+}
+/*img*/
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.container {
+  margin: auto;
+  min-height: 1px;
+  max-width: 1400px;
+  height: 100%;
+}
+@media (max-width: 1560px) {
+	.container {
+		padding-left: 80px;
+		padding-right: 80px;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+	}
+}
+@media (max-width: 1360px) {
+	.container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+		padding-left: 3%;
+		padding-right: 3%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.hidden-xs {
+		display: none !important;
+	}
+	.visible-xs {
+		display: block !important;
+	}
+}
+/*a*/
+a:active,
+a:hover {
+	outline: 0;
+}
+/*bold*/
+.bold{
+	font-weight: bold;
+}
+.normal{
+	font-weight: normal;
+}
+.visible-xs{
+	display: none;
+}
+/*去掉竖向滚动条 chrome*/
+@media (min-width:769px){
+	.noneBar::-webkit-scrollbar{
+		width: 0 !important;
+	}
+}
+/*自定义滚动条样式*/
+@media (min-width:768px){
+    /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+    /*往下滚一次所走的高度*/
+	body::-webkit-scrollbar{
+		width: 8px;
+		height: 6px;
+	}
+    /*定义滑块*/
+	body::-webkit-scrollbar-thumb{
+		height: 50px;
+		background-color: #e75509;
+	}
+	body::-webkit-scrollbar-track-piece{
+		width: 8px;
+		background-color: #ccc;
+	}
+}

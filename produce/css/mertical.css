@@ -1,0 +1,83 @@
+/*.detail{*/
+/*    margin: 0;*/
+/*}*/
+/*.detail .container .detail_content{*/
+/*    margin: 100px auto;*/
+/*}*/
+/*.detail .container .detail_content> h4:first-of-type{*/
+/*    display: inline-block;*/
+/*    background: #ea5404;*/
+/*    color: #fff !important;*/
+/*    padding: 6px 20px;*/
+/*    font-size: 18px;*/
+/*    line-height: 34px;*/
+/*    margin: 28px 0;*/
+/*}*/
+/*@media (max-width:768px){*/
+/*    .container p, .container img{*/
+/*        width: auto!important;*/
+/*        max-width: 100%!important;*/
+/*        height: auto!important;*/
+/*        margin-left: 0!important;*/
+/*        margin-right: 0!important;*/
+/*        padding-left: 0!important;*/
+/*        padding-right: 0!important;*/
+/*    }*/
+/*    .detail .container .detail_content{*/
+/*        margin:50px auto;*/
+/*    }*/
+/*    .detail .container .detail_content> h4:first-of-type{*/
+/*        font-size: 15px;*/
+/*        line-height: 24px;*/
+/*        text-align: left;*/
+/*        margin: 10px 0;*/
+/*    }*/
+/*}*/
+/*.detail .container .detail_content> h4:last-of-type{*/
+/*    font-size: 16px !important;*/
+/*    color: #666;*/
+/*    text-align: left;*/
+/*    margin: 20px 0 28px 0;*/
+/*    line-height: 32px;*/
+/*}*/
+/*.detail .container .detail_content> h4 span{*/
+/*    font-size: 14px;*/
+/*}*/
+/*.detail .container .detail_content>img:first-of-type{*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.detail .container .detail_content > div img{*/
+/*    width: calc(100% - 280px);*/
+/*    margin-right: 30px;*/
+/*    margin-bottom: 28px;*/
+/*}*/
+/*.detail .container .detail_content > div  p{*/
+/*    width: 250px;*/
+/*    font-size: 16px !important;*/
+/*    color: #666;*/
+/*    text-align: left;*/
+/*    margin: 20px 0 28px 0;*/
+/*    line-height: 32px;*/
+/*}*/
+.detail .container .detail_content h4:first-of-type{
+    display: inline-block;
+    background: #ea5404;
+    color: #fff;
+    padding: 6px 20px;
+}
+.detail .container .detail_content h4:first-of-type span{
+    font-size: 14px;
+}
+.detail .container .detail_content .left{
+    width: calc(100% - 280px);
+    margin-right: 28px;
+}
+.detail .container .detail_content .left img{
+    margin-bottom: 28px;
+}
+.detail .container .detail_content .right{
+    width: 250px;
+}
+.detail .container .detail_content h4:last-of-type{
+    font-size: 16px;
+}

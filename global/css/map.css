@@ -1,0 +1,330 @@
+.headerFp{
+    position: fixed;
+    z-index:5;
+}
+.header2{
+    background: #00070b;
+}
+.global_wrap{
+    background: #010e16;
+    padding-top: 80px;
+}
+.global_wrap .global .nav{
+    position: fixed;
+    top: 31%;
+    left: calc(50vw - 700px);
+    z-index: 999;
+}
+@media (max-width: 1560px){
+    .global_wrap .global .nav{
+        left: 80px;
+    }
+}
+@media (max-width: 1360px){
+    .global_wrap .global .nav{
+        left: 40px;
+    }
+}
+.global_wrap .global .nav li{
+    margin-bottom: 16px;
+    transition:.4s;
+}
+.global_wrap .global .nav li:hover{
+    transform: translateX(-10px);
+}
+.global_wrap .global .nav li a span{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 14px;
+}
+.global_wrap .global .map{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 240px;
+}
+.global_wrap .global .map ul{
+    margin-top: 24px;
+}
+.global_wrap .global .map ul li{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 25px;
+}
+.global_wrap .global .map ul li p{
+    font-size: 12px;
+}
+.global_wrap .global .map ul li p span{
+    font-family: Arial;
+    font-size: 30px;
+    color: #ff9c00;
+}
+.global_wrap .global .map > img:nth-of-type(2){
+    bottom: 0;
+    left: 0;
+    -webkit-animation: bian1 2s linear infinite alternate;
+    -o-animation: bian1 2s linear infinite alternate;
+    animation: bian1 2s linear infinite alternate;
+}
+@-webkit-keyframes bian1 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes bian1 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.global_wrap .global .map .text{
+    top: 90px;
+    width: 100%;
+}
+@media (max-height: 860px){
+    .global_wrap .global .map .text{
+        min-width:640px;
+    }
+}
+.global_wrap .global .map .text h3{
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-family: 'AR';
+}
+.global_wrap .global .map .text h4{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+.global_wrap .global .map .text h6{
+    font-size: 18px;
+    color: #fff;
+    line-height: 34px;
+    margin-top: 36px;
+}
+@media (max-width: 1366px){
+    .global_wrap .global .map .text h3{
+        font-size: 32px;
+    }
+}
+@media (max-height:860px){
+    .global_wrap .global .map .text h3{
+        line-height: 54px;
+        margin-bottom: 5px;
+    }
+    .global_wrap .global .map .text h4{
+        margin-top: 0;
+    }
+    .global_wrap .global .map .text h6{
+        margin-top: 16px;
+    }
+}
+.global_wrap .global .map .map_list{
+    bottom: 90px;
+    left: 40px;
+    z-index: 3;
+}
+.global_wrap .global .map .map_list li{
+    line-height: 20px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.global_wrap .global .map .map_list li a{
+    color:#fff;
+}
+.global_wrap .global .map .dots{
+    left: 0;
+    bottom: 0;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+}
+.global_wrap .global .map .dots .dot:first-of-type{
+    left: 17%;
+    top: 58%;
+}
+.global_wrap .global .map .dots .dot .pic{
+    cursor: pointer;
+}
+.global_wrap .global .map .dots .dot .pic .country{
+    left: 3px;
+    right: 0;
+    top: 3px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.global_wrap .global .map .dots .dot > a{
+    left: 100%;
+    right: inherit;
+    padding-right: 0;
+    padding-left: 70px;
+    width: 230px;
+    display: none;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(5) > a{
+    right: 125%;
+    bottom: -20px;
+    /*padding-right: 12px;*/
+}
+.global_wrap .global .map .dots .dot > a i{
+    height: 30px;
+    background: #595656;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    font-style: normal;
+}
+.global_wrap .global .map .dots .dot >p{
+    left: 35px;
+    bottom: 0;
+    width: 110px;
+    font-size: 18px;
+    color: #fff;
+}
+.global_wrap .global .map .map_list li a span{
+    display: inline-block;
+    width: 18px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(2){
+    left: 62.5%;
+    top: 52%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(2) p{
+    bottom: 0;
+    width: 110px;
+    color: #fff;
+    left: auto;
+    right: 28px;
+    font-size: 14px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(2) p span{
+    margin-left: 0;
+    margin-right: 3px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(3){
+    top: 43.5%;
+    left: 69%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(3) p{
+    left: auto;
+    right: 28px;
+    font-size: 14px;
+    bottom: 0;
+    width: 110px;
+    color: #fff;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(4){
+    left: 75%;
+    top: 51%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(4) > a{
+    left: 100%;
+    right: inherit;
+    padding-right: 0;
+    padding-left: 70px;
+    width: 230px;
+    bottom: -20px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(4) .pic .country{
+    left: 3px;
+    right: 0;
+    top: 3px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(4) .pic img:last-of-type{
+     bottom: 0;
+     left: 0;
+     right:1px;
+     margin: auto;
+     width: 23px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(5){
+    top: 59%;
+    left: 74%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(5) .pic img:last-of-type{
+    width: 23px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(5) >p{
+    left:60px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(6){
+    left: 56.8%;
+    top: 71%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(6) p{
+    bottom: 0;
+    width: 110px;
+    color: #fff;
+    left: 28px;
+    font-size: 14px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(7){
+    left: 70%;
+    top: 58%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(7) .pic img,
+.global_wrap .global .map .dots .dot:nth-of-type(8) .pic img,
+.global_wrap .global .map .dots .dot:nth-of-type(9) .pic img,
+.global_wrap .global .map .dots .dot:nth-of-type(10) .pic img{
+    width: 15px;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(7) p,
+.global_wrap .global .map .dots .dot:nth-of-type(8) p,
+.global_wrap .global .map .dots .dot:nth-of-type(9) p,
+.global_wrap .global .map .dots .dot:nth-of-type(10) p{
+    left: 15px;
+    font-size: 12px;
+    bottom: 0;
+    width: 110px;
+    color: #fff;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(8){
+    left: 77%;
+    top: 57.5%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(9){
+    left: 69%;
+    top: 60%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(10){
+    left: 79%;
+    top: 60%;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(11){
+    top: 62%;
+    left: 76%;
+    z-index: 10;
+}
+.global_wrap .global .map .dots .dot:nth-of-type(11) .pic img:last-of-type{
+    width: 23px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

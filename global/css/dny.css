@@ -1,0 +1,28 @@
+.detail .container .detail_content > h4{
+    display: inline-block;
+    background: #ea5404;
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 22px;
+}
+.detail .container .detail_content .clearfix .left50{
+    width: calc(50% - 10px);
+}
+.detail .container .detail_content .clearfix .left50:first-of-type{
+    margin-right: 10px;
+}
+.detail .container .detail_content .clearfix .left50:last-of-type{
+    margin-left: 10px;
+}
+.detail .container .detail_content .clearfix .left50 p{
+    font-size: 18px;
+}
+.detail .container .detail_content .clearfix .left50 p:first-of-type{
+    margin:20px 0 0 0;
+}
+.detail .container .detail_content .clearfix .left50 p:last-of-type{
+    margin: 0;
+}
+.detail .container .detail_content .clearfix:nth-of-type(2){
+    margin-top: 32px;
+}

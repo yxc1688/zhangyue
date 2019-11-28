@@ -1,0 +1,26 @@
+.detail .wrap .detail_content > h4:first-of-type,
+.detail .wrap .detail_content > h4:last-of-type{
+    display: inline-block;
+    background: #ea5404;
+    color: #fff;
+    padding: 6px 20px;
+}
+.detail .wrap .detail_content .qhs>div{
+    width: calc((100% - 40px) / 3);
+    margin-right: 20px;
+}
+.detail .wrap .detail_content .qhs>div:last-of-type{
+    margin-right: 0;
+}
+.detail .wrap .detail_content .drug > div{
+    width: calc(50% - 10px);
+}
+.detail .wrap .detail_content .drug > div:first-of-type{
+    margin-right: 10px;
+}
+.detail .wrap .detail_content .drug > div:last-of-type{
+    margin-left: 10px;
+}
+.detail .wrap .detail_content p span{
+    color: #ea5404;
+}
